@@ -126,14 +126,7 @@ While high unemployment often coincides with high crime, countries such as Jorda
 - Perform a time-series analysis where data is available
 - Create interactive dashboards using Power BI or Tableau
 ---
-
-## 👤 Analyst: **Eliza C. Huang**  
-Data Analyst with a background in UX research and data-driven analysis.  
-Interested in roles within public policy, NGOs, human rights, and social impact organizations.
-
----
-
-## 📎 Portfolio
-More projects and visualizations available on:
-- GitHub: https://github.com/elizachuang
-- Instagram (data visualizations): https://www.instagram.com/datadrawers/
+## 👤 Contact
+- Eliza C. Huang | Data Analyst with a background in UX research and data-driven analysis. Interested in roles within public policy, NGOs, human rights, and social impact organizations.
+- Portfolio / Data Visualizations: Instagram – DataDrawers
+- LinkedIn: [https://www.linkedin.com/in/chuyunh/]
