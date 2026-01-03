@@ -1,0 +1,220 @@
+﻿country_name,country_code,unemployment_rate,crime_rate
+Afghanistan,AF,13.30,78.30
+Albania,AL,10.25,45.60
+Algeria,DZ,11.43,52.20
+American Samoa,AS,,
+Andorra,AN,,12.90
+Angola,AG,14.46,66.50
+Argentina,AR,7.88,64.20
+Antigua and Barbuda,AT,,
+Armenia,AR,13.33,22.40
+Arab World,AR,9.46,
+Australia,AU,4.07,47.10
+Austria,AU,5.44,29.30
+Azerbaijan,AZ,5.59,31.60
+Aruba,AB,,
+Bahrain,BH,1.10,23.90
+Bangladesh,BG,4.68,61.50
+Barbados,BR,7.53,47.10
+"Bahamas, The",BH,8.46,
+Belarus,BL,3.36,50.80
+Belgium,BE,5.49,49.20
+Belize,BL,7.00,53.00
+Bolivia,BO,3.09,64.60
+Botswana,BW,23.14,52.20
+Brazil,BR,7.63,65.60
+Benin,BE,1.72,
+Bulgaria,BG,4.10,37.10
+Bermuda,BM,,
+Cambodia,KH,0.27,52.80
+Bhutan,BT,2.86,
+Cameroon,CM,3.52,63.50
+Canada,CA,6.45,45.20
+Bosnia and Herzegovina,BI,10.72,
+Chile,CH,9.06,59.30
+China,CH,4.57,24.90
+Colombia,CO,9.61,61.20
+British Virgin Islands,VG,,
+Costa Rica,CR,7.85,53.70
+Brunei,BR,5.14,
+Croatia,HR,5.24,26.00
+Cuba,CU,1.53,33.40
+Burkina Faso,BF,5.17,
+Cyprus,CY,5.60,32.40
+Burundi,BD,0.90,
+Czechia,CZ,2.51,26.80
+Cabo Verde,CP,11.88,
+Denmark,DN,5.59,26.30
+Dominican Republic,DO,5.47,60.50
+Ecuador,EC,4.77,62.10
+El Salvador,SL,2.84,61.30
+Cayman Islands,CY,,
+Estonia,ES,7.83,23.80
+Central African Republic,CA,5.90,
+Ethiopia,ET,3.40,50.80
+Fiji,FJ,4.31,57.30
+Chad,TC,1.09,
+Finland,FI,8.26,26.30
+Channel Islands,CH,6.26,
+France,FR,7.37,55.30
+Georgia,GE,11.48,26.10
+Germany,DE,3.41,38.90
+Ghana,GH,3.01,43.90
+Comoros,CO,3.88,
+Greece,GR,10.13,46.70
+"Congo, Dem. Rep.",CO,4.56,
+Guatemala,GT,2.22,59.50
+"Congo, Rep.",CO,19.69,
+Guyana,GU,10.17,67.30
+Haiti,HT,15.06,77.90
+Cote d'Ivoire,CI,2.29,
+Honduras,HN,6.06,73.40
+Hungary,HU,4.43,33.70
+Iceland,IS,3.11,25.40
+Curacao,CU,,
+India,IN,4.20,44.30
+Indonesia,ID,3.30,46.10
+Iraq,IR,15.52,44.70
+Djibouti,DJ,25.88,
+Ireland,IR,4.37,46.50
+Dominica,DM,,
+Israel,IS,3.15,32.40
+Italy,IT,6.78,47.30
+Jamaica,JA,4.89,68.10
+Japan,JP,2.56,22.60
+Jordan,JO,18.00,40.40
+Kazakhstan,KA,4.79,45.90
+Egypt,EG,7.20,
+Kenya,KE,5.43,56.40
+Kuwait,KW,2.14,32.80
+Equatorial Guinea,GN,7.82,
+Eritrea,ER,5.55,
+Latvia,LV,6.72,37.40
+Lebanon,LB,,46.40
+Eswatini,SW,34.40,
+Libya,LB,18.62,60.40
+Lithuania,LT,7.50,32.80
+Euro area,EM,6.41,
+Faroe Islands,FR,,
+French Polynesia,PY,11.75,
+Gabon,GA,20.06,
+The Gambia,GM,6.50,
+Gibraltar,GI,,
+Greenland,GR,,
+Grenada,GR,,
+Guam,GU,5.59,
+Guinea,GI,5.23,
+Guinea-Bissau,GN,2.62,
+Hong Kong,HK,2.79,
+Iran,IR,9.19,
+Isle of Man,IM,,
+Kiribati,KI,,
+North Korea,PR,2.86,
+South Korea,KO,2.60,
+Kosovo,XK,,
+Kyrgyz,KG,3.29,
+Lao,LA,1.22,
+Lesotho,LS,16.15,
+Liberia,LB,2.88,
+Liechtenstein,LI,,
+Luxembourg,LU,5.94,34.40
+"Macao SAR, China",MA,2.44,
+Madagascar,MD,3.01,
+Malawi,MW,5.05,
+Malaysia,MY,3.83,50.70
+Maldives,MD,4.64,55.00
+Mali,ML,3.06,
+Malta,ML,2.70,41.20
+Marshall Islands,MH,,
+Mauritania,MR,10.37,
+Mauritius,MU,5.48,47.80
+Mexico,ME,2.71,53.80
+Micronesia,FS,,
+Moldova,MD,1.43,45.10
+Monaco,MC,,23.60
+Mongolia,MN,5.42,52.40
+Montenegro,MN,14.10,38.00
+Morocco,MA,8.94,46.50
+Mozambique,MO,3.53,63.70
+Myanmar,MM,3.03,50.40
+Namibia,NA,19.15,63.90
+Nauru,NR,,
+Nepal,NP,10.71,37.70
+Netherlands,NL,3.60,26.30
+New Caledonia,NC,11.15,
+New Zealand,NZ,4.87,47.70
+Nicaragua,NI,4.57,52.20
+Niger,NE,0.36,
+Nigeria,NG,2.99,66.20
+North America,NA,4.38,
+North Macedonia,MK,13.42,41.00
+Norway,NO,3.97,32.60
+Oman,OM,3.16,19.00
+Pakistan,PA,5.47,43.20
+Palau,PL,,
+Panama,PA,6.52,44.30
+Papua New Guinea,PN,2.74,79.70
+Paraguay,PR,6.09,50.90
+Peru,PE,4.83,67.80
+Philippines,PH,2.15,42.80
+Poland,PO,2.47,30.70
+Portugal,PR,6.38,31.20
+Puerto Rico,PR,5.47,
+Qatar,QA,0.13,16.00
+Romania,RO,5.38,33.70
+Russian,RU,2.53,
+Rwanda,RW,11.99,26.80
+Samoa,WS,4.55,
+San Marino,SM,,
+Sao Tome and Principe,ST,9.17,
+Saudi Arabia,SA,3.90,26.90
+Senegal,SE,2.99,
+Serbia,SR,7.39,38.30
+Seychelles,SY,,
+Sierra Leone,SL,3.13,
+Singapore,SG,3.18,23.50
+Sint Maarten (Dutch part),SX,,
+Slovak Republic,SV,5.23,
+Slovenia,SV,3.36,24.20
+Small states,SS,7.56,
+Solomon Islands,SL,1.47,
+Somalia,SO,18.86,
+South Africa,ZA,33.17,75.40
+South Sudan,SS,,
+Spain,ES,11.39,36.20
+Sri Lanka,LK,5.00,42.10
+St. Kitts and Nevis,KN,,
+St. Lucia,LC,10.93,
+St. Martin (French part),MA,,
+St. Vincent,VC,18.06,
+Sudan,SD,,45.40
+Suriname,SU,7.33,
+Sweden,SW,8.53,48.40
+Switzerland,CH,4.11,25.30
+Syrian,SY,12.96,
+Taiwan,TW,3.38,16.70
+Tajikistan,TJ,11.64,
+Tanzania,TZ,2.58,54.50
+Thailand,TH,0.69,37.90
+Timor-Leste,TL,1.60,
+Togo,TG,1.94,
+Tonga,TO,2.19,
+Trinidad and Tobago,TT,4.55,70.80
+Tunisia,TU,16.20,44.40
+Turkiye,TU,8.45,
+Turkmenistan,TK,4.30,
+Tuvalu,TU,,
+Uganda,UG,2.94,55.00
+Ukraine,UK,,46.90
+United Arab Emirates,AR,2.13,15.60
+United Kingdom,GB,4.11,47.40
+United States,US,4.11,49.30
+Uruguay,UR,8.40,52.20
+Uzbekistan,UZ,4.49,30.50
+Vanuatu,VU,5.06,
+Venezuela,VE,5.48,
+Viet Nam,VN,1.43,
+Virgin Islands (U.S.),VI,12.01,
+Yemen,YE,17.09,
+Zambia,ZM,5.96,46.40
+Zimbabwe,ZW,8.55,60.90
