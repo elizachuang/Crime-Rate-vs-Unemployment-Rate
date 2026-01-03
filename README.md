@@ -1,6 +1,6 @@
 # Crime Rate vs Unemployment Rate Analysis (Global)
 
-## 📌 Project Overview
+#📌 Project Overview
 This project explores the relationship between unemployment rates and crime rates across countries. Using publicly available datasets, the analysis investigates whether higher unemployment is associated with higher crime levels and identifies notable outliers that challenge this assumption.
 ---
 
