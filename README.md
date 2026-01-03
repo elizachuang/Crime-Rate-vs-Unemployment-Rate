@@ -87,7 +87,7 @@ A focused analysis of the highest-unemployment countries highlights variation wi
 
 
 ### Step 5 - Top 10 Countries that has low unemployment but high crime
-|country_name       |unemployment_rate|crime_rate|
+|     Country       |Unemployment Rate|Crime Rate|
 |-------------------|-----------------|----------|
 |Papua New Guinea   |2%               |79        |
 |Trinidad and Tobago|4%               |70        |
