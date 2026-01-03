@@ -38,7 +38,9 @@ SELECT
   CORR(unemployment_rate, crime_rate) AS correlation_value
 FROM unemployment_vs_crime_cleaned;
 
----The correlation value = 0.26, which suggests a weak positive relationship between unemployment and crime rates. This indicates that higher unemployment is associated with slightly higher crime levels, but the relationship is not strong, implying that crime is influenced by multiple factors beyond unemployment alone.
+--- The correlation value = 0.26, which suggests a weak positive relationship between unemployment and 
+--- crime rates. This indicates that higher unemployment is associated with slightly higher crime levels, 
+--- but the relationship is not strong, implying that crime is influenced by multiple factors beyond unemployment alone.
 
 --- Step 7 Find out the answer for the question 'Do countries with higher unemployment tend to experience higher crime rates?'
 --- Group the country by the unemployment level
@@ -73,8 +75,19 @@ from unemployment_vs_crime_cleaned
 order by unemployment_rate desc
 limit 10;
 
---- The top 10 countries with the highest unemployment rates show consistently elevated crime levels. South Africa records the highest unemployment rate (33%) alongside a high crime rate (75), while Haiti exhibits one of the highest crime rates (77) despite a lower unemployment rate (15%). Several countries, including Namibia, Angola, and Libya, display both high unemployment and high crime rates, suggesting potential socioeconomic stress.
----However, variation exists within this group. For example, Jordan and Montenegro maintain relatively lower crime rates despite elevated unemployment, indicating that unemployment alone does not fully explain crime levels. These findings highlight the importance of considering additional factors such as governance, social stability, and law enforcement when interpreting unemployment–crime relationships.
+--- The top 10 countries with the highest unemployment rates show consistently elevated 
+--- crime levels. South Africa records the highest unemployment rate (33%) alongside 
+--- a high crime rate (75), while Haiti exhibits one of the highest crime rates (77) 
+--- despite a lower unemployment rate (15%). Several countries, including Namibia, Angola, 
+--- and Libya, display both high unemployment and high crime rates, 
+--- suggesting potential socioeconomic stress.
+
+--- However, variation exists within this group. 
+--- For example, Jordan and Montenegro maintain relatively lower crime rates despite elevated 
+--- unemployment, indicating that unemployment alone does not fully explain crime levels. 
+--- These findings highlight the importance of considering additional factors such as 
+--- governance, social stability, and law enforcement when interpreting 
+--- unemployment–crime relationships.
 
 --- Step 9 Country that has high unemployment but low crime
 select country_name,
@@ -94,7 +107,8 @@ where unemployment_rate < 5
 order by crime_rate desc
 limit 10;
 --- In these countries, high job availability fails to curb crime. 
---- This suggests that the high crime rates are primarily driven by non-unemployment factors, such as: High income inequality. political Instability, curroption, Drug and Gang Violence.
+--- This suggests that the high crime rates are primarily driven by non-unemployment factors, 
+--- such as: High income inequality. political Instability, curroption, Drug and Gang Violence.
 
 --- Summary table
 SELECT
