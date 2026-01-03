@@ -1,7 +1,7 @@
 # Crime Rate vs Unemployment Rate Analysis (Global)
 
-#📌 Project Overview
-This project explores the relationship between unemployment rates and crime rates across countries. Using publicly available datasets, the analysis investigates whether higher unemployment is associated with higher crime levels and identifies notable outliers that challenge this assumption.
+##📌 Project Overview
+- This project explores the relationship between unemployment rates and crime rates across countries. Using publicly available datasets, the analysis investigates whether higher unemployment is associated with higher crime levels and identifies notable outliers that challenge this assumption.
 ---
 
 ## 🎯 Key Questions
@@ -21,9 +21,9 @@ This project explores the relationship between unemployment rates and crime rate
 ---
 
 ## 📊 Data Sources
-World Population Review
-World Bank Group 
-Trading Economics
+- World Population Review
+- World Bank Group 
+- Trading Economics
 ---
 
 ## 🧹 Data Cleaning & Preparation
@@ -85,6 +85,22 @@ A focused analysis of the highest-unemployment countries highlights variation wi
 | Montenegro     | 14%               | 38         |
 | Angola         | 14%               | 66         |
 
+
+### Step 5 - Top 10 Countries that has low unemployment but high crime
+|country_name       |unemployment_rate|crime_rate|
+|-------------------|-----------------|----------|
+|Papua New Guinea   |2%               |79        |
+|Trinidad and Tobago|4%               |70        |
+|Jamaica            |4%               |68        |
+|Peru               |4%               |67        |
+|Nigeria            |2%               |66        |
+|Bolivia            |3%               |64        |
+|Mozambique         |3%               |63        |
+|Cameroon           |3%               |63        |
+|Ecuador            |4%               |62        |
+|Bangladesh         |4%               |61        |
+
+
 **Insight:**  
 While high unemployment often coincides with high crime, countries such as Jordan and Montenegro show relatively lower crime rates, suggesting that governance, social stability, and policy interventions play important roles.
 
@@ -111,8 +127,7 @@ While high unemployment often coincides with high crime, countries such as Jorda
 - Create interactive dashboards using Power BI or Tableau
 ---
 
-## 👤 Author
-**[Eliza C. Huang]**  
+## 👤 Analyst: **Eliza C. Huang**  
 Data Analyst with a background in UX research and data-driven analysis.  
 Interested in roles within public policy, NGOs, human rights, and social impact organizations.
 
