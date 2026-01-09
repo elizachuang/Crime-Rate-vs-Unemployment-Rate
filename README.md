@@ -42,10 +42,51 @@ Key preparation steps included:
 
 ### Step 1 — Data Validation
 Confirmed that all records used in analysis contained valid unemployment and crime rate values.
+```
+---Step 1 Check all values, confirms data is readable and look correct
+SELECT *
+FROM unemployment_vs_crime uvc 
+LIMIT 10;
+
+---Step 2 count null values 
+SELECT
+  COUNT(*) AS total_rows,
+  COUNT(crime_rate) AS non_null_crime_rate,
+  COUNT(unemployment_rate) AS non_null_unemployment_rate
+FROM unemployment_vs_crime;
+
+---Step 3 Identify where the missing values are
+SELECT *
+FROM unemployment_vs_crime
+WHERE crime_rate IS NULL
+   OR unemployment_rate IS NULL;
+
+---Step 4 Drop rows with NULL values, create a new table
+CREATE TABLE unemployment_vs_crime_cleaned AS
+SELECT
+  country_name,
+  crime_rate,
+  unemployment_rate
+FROM unemployment_vs_crime
+WHERE crime_rate IS NOT NULL
+  AND unemployment_rate IS NOT NULL;
+
+---Step 5 confirm the table works
+SELECT
+  COUNT(*) AS total_rows,
+  COUNT(crime_rate) AS crime_count,
+  COUNT(unemployment_rate) AS unemployment_count
+FROM unemployment_vs_crime_cleaned;
+
+```
 
 ### Step 2 — Correlation Analysis
 A Pearson correlation coefficient was calculated to measure the relationship between unemployment rate and crime rate.
-
+```
+SELECT
+  CORR(unemployment_rate, crime_rate) AS correlation_value
+FROM unemployment_vs_crime_cleaned;
+```
 - **Correlation value:** `0.26`
 
 **Interpretation:**  
@@ -58,6 +99,19 @@ Countries were categorized into three groups:
 - Low unemployment
 - Medium unemployment
 - High unemployment
+```
+SELECT 
+	CASE
+		WHEN unemployment_rate < 5 THEN 'Low unemployment'
+		WHEN unemployment_rate BETWEEN 5 AND 10 THEN 'Medium unemployment'
+		ELSE 'high unemployment' 
+		END AS unemployment_group,
+	COUNT(*) as country_count,
+	ROUND(AVG(crime_rate), 2) AS avg_crime_rate
+FROM unemployment_vs_crime_cleaned 
+GROUP BY unemployment_group 
+ORDER BY avg_crime_rate DESC;
+```
 
 Average crime rates were calculated for each group.
 
@@ -75,6 +129,16 @@ Crime rates increase gradually as unemployment levels rise. While this supports 
 ### Step 4 — Top 10 Countries by Unemployment Rate
 A focused analysis of the highest-unemployment countries highlights variation within this group.
 
+```
+SELECT country_name,
+	unemployment_rate,
+	crime_rate
+FROM unemployment_vs_crime_cleaned
+ORDER BY unemployment_rate DESC
+LIMIT 10;
+
+```
+
 | Country        | Unemployment Rate | Crime Rate |
 |----------------|-------------------|------------|
 | South Africa   | 33%               | 75         |
@@ -89,7 +153,20 @@ A focused analysis of the highest-unemployment countries highlights variation wi
 | Angola         | 14%               | 66         |
 
 
+
+
 ### Step 5 - Top 10 Countries that has low unemployment but high crime
+
+```
+SELECT country_name,
+	unemployment_rate,
+	crime_rate
+FROM unemployment_vs_crime_cleaned
+WHERE unemployment_rate < 5
+ORDER BY crime_rate DESC
+LIMIT 10;
+
+```
 |     Country       |Unemployment Rate|Crime Rate|
 |-------------------|-----------------|----------|
 |Papua New Guinea   |2%               |79        |
