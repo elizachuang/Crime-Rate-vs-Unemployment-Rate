@@ -112,6 +112,8 @@ While high unemployment often coincides with high crime, countries such as Jorda
 - Significant variation exists, indicating unemployment is not the sole driver of crime.
 - Social, political, and institutional factors likely influence crime outcomes.
 
+<img width="1080" height="1350" alt="image" src="https://github.com/user-attachments/assets/fb45886f-232c-4adf-bcae-8ffed3a3c3ec" />
+
 ---
 
 ## ⚠️ Limitations
