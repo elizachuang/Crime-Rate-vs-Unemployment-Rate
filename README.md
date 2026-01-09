@@ -1,5 +1,8 @@
 # Crime Rate vs Unemployment Rate Analysis (Global)
 
+<img width="auto" height="auto" alt="A horizontal banner with a clean white background. On the left side, bold blue text asks the question, DOES LOW UNEMPLOYMENT MEAN LOW CRIME? On the right side, there is a large, faint, light-blue graphic of a human fingerprint, which is partially cropped by the edge of the frame." src="https://github.com/user-attachments/assets/e1f516a4-51b5-4598-9ef2-d47be539c41e" />
+
+
 ## 📌 Project Overview
 - This project explores the relationship between unemployment rates and crime rates across countries. Using publicly available datasets, the analysis investigates whether higher unemployment is associated with higher crime levels and identifies notable outliers that challenge this assumption.
 ---
@@ -112,7 +115,8 @@ While high unemployment often coincides with high crime, countries such as Jorda
 - Significant variation exists, indicating unemployment is not the sole driver of crime.
 - Social, political, and institutional factors likely influence crime outcomes.
 
-<img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/fb45886f-232c-4adf-bcae-8ffed3a3c3ec" />
+<img width="250" height="auto" alt="A horizontal bar chart comparing eight countries with low unemployment rates (all under 4%) against high crime indices, ranging from Uganda at 55.00 to Papua New Guinea at 79.70" src="https://github.com/user-attachments/assets/9dd32d7e-950c-4fd0-a9d2-c91c34ddaaa5" />
+<img width="250" height="auto" alt="A horizontal bar chart illustrating seven countries where high unemployment (15.52% to 33.17%) correlates with high crime indices (40.40 to 75.40), with South Africa leading in both categories." src="https://github.com/user-attachments/assets/10bfa95e-846b-457a-93db-f8f6e33e3824" />
 
 ---
 
